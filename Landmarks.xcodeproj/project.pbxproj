@@ -11,6 +11,7 @@
 		EB2DE59B29689EE000881ABC /* LadmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DE59A29689EE000881ABC /* LadmarkRow.swift */; };
 		EB2DE59D2968C0DA00881ABC /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DE59C2968C0DA00881ABC /* LandmarkList.swift */; };
 		EB2DE59F2968C8F300881ABC /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DE59E2968C8F300881ABC /* LandmarkDetail.swift */; };
+		EB2DE5A1296C768F00881ABC /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2DE5A0296C768F00881ABC /* FavoriteButton.swift */; };
 		EB9D84B92968362000289C77 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D84B82968362000289C77 /* LandmarksApp.swift */; };
 		EB9D84BB2968362000289C77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9D84BA2968362000289C77 /* ContentView.swift */; };
 		EB9D84BD2968362200289C77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9D84BC2968362200289C77 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		EB2DE59A29689EE000881ABC /* LadmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LadmarkRow.swift; sourceTree = "<group>"; };
 		EB2DE59C2968C0DA00881ABC /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		EB2DE59E2968C8F300881ABC /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		EB2DE5A0296C768F00881ABC /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		EB9D84B52968362000289C77 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB9D84B82968362000289C77 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		EB9D84BA2968362000289C77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,14 +62,29 @@
 		EB2DE59929688FF700881ABC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EB9D84C82968682E00289C77 /* CircleImage.swift */,
-				EB9D84CA29686BA100289C77 /* MapView.swift */,
 				EB9D84BA2968362000289C77 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB2DE5A2296C7BF200881ABC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D84CA29686BA100289C77 /* MapView.swift */,
+				EB9D84C82968682E00289C77 /* CircleImage.swift */,
+				EB2DE5A0296C768F00881ABC /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EB2DE5A3296C7C2400881ABC /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
 				EB2DE59A29689EE000881ABC /* LadmarkRow.swift */,
 				EB2DE59C2968C0DA00881ABC /* LandmarkList.swift */,
 				EB2DE59E2968C8F300881ABC /* LandmarkDetail.swift */,
 			);
-			path = Views;
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		EB9D84AC2968362000289C77 = {
@@ -89,6 +106,8 @@
 		EB9D84B72968362000289C77 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				EB2DE5A3296C7C2400881ABC /* Landmarks */,
+				EB2DE5A2296C7BF200881ABC /* Helpers */,
 				EB2DE59929688FF700881ABC /* Views */,
 				EB2DE59829688FD400881ABC /* Model */,
 				EB9D84B82968362000289C77 /* LandmarksApp.swift */,
@@ -181,6 +200,7 @@
 				EB9D84BB2968362000289C77 /* ContentView.swift in Sources */,
 				EB9D84CB29686BA100289C77 /* MapView.swift in Sources */,
 				EB9D84B92968362000289C77 /* LandmarksApp.swift in Sources */,
+				EB2DE5A1296C768F00881ABC /* FavoriteButton.swift in Sources */,
 				EB2DE59D2968C0DA00881ABC /* LandmarkList.swift in Sources */,
 				EB2DE59F2968C8F300881ABC /* LandmarkDetail.swift in Sources */,
 				EB2DE59B29689EE000881ABC /* LadmarkRow.swift in Sources */,
